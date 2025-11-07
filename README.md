@@ -3,10 +3,18 @@
 [![status](https://img.shields.io/badge/status-stable-blue.svg)](https://github.com/tauri-apps/tauri-egui/tree/dev)
 [![License](https://img.shields.io/badge/License-MIT%20or%20Apache%202-green.svg)](https://opencollective.com/tauri)
 [![test library](https://img.shields.io/github/workflow/status/tauri-apps/tauri-egui/test%20library?label=test%20library)](https://github.com/tauri-apps/tauri/actions?query=workflow%3A%22test+library%22)
-[![Chat Server](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.gg/SpmNs4S)
+[![Chat Server](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.com/invite/tauri)
 [![website](https://img.shields.io/badge/website-tauri.app-purple.svg)](https://tauri.app)
 [![https://good-labs.github.io/greater-good-affirmation/assets/images/badge.svg](https://good-labs.github.io/greater-good-affirmation/assets/images/badge.svg)](https://good-labs.github.io/greater-good-affirmation)
 [![support](https://img.shields.io/badge/sponsor-Open%20Collective-blue.svg)](https://opencollective.com/tauri)
+
+## This project is currently unmaintained!
+
+For the time being, an unvetted community-hosted implementation is hosted [here](https://github.com/clearlysid/tauri-plugin-egui).
+
+## About tauri-egui
+
+`tauri-egui` is a Tauri plugin for using the [`egui library`](https://github.com/emilk/egui) in a Tauri application via [`glutin`](https://github.com/tauri-apps/glutin). `egui` is a pure Rust GUI library that runs natively, recommended by the Tauri team for secure contexts such as password and secret interfaces.
 
 ## Dependency
 
@@ -16,10 +24,6 @@
 | [**egui**](https://github.com/tauri-apps/egui) | immediate mode GUI library for Rust  | [![](https://img.shields.io/badge/crate.io-v0.19.0-orange)](https://crates.io/crates/egui) |
 | [**tao**](https://github.com/tauri-apps/tao) | cross-platform application window creation library in Rust  | [![](https://img.shields.io/badge/crate.io-v0.18.0-orange)](https://crates.io/crates/tao) |
 | [**glutin**](https://github.com/tauri-apps/glutin) | low-level library for OpenGL context creation, written in pure Rust.  | [![](https://img.shields.io/badge/crate.io-v0.29.1-orange)](https://crates.io/crates/glutin) |
-
-## About tauri-egui
-
-`tauri-egui` is a Tauri plugin for using the [`egui library`](https://github.com/emilk/egui) in a Tauri application via [`glutin`](https://github.com/tauri-apps/glutin). `egui` is a pure Rust GUI library that runs natively, recommended by the Tauri team for secure contexts such as password and secret interfaces.
 
 ## Example
 
